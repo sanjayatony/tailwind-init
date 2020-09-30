@@ -1,6 +1,7 @@
 {
   "license": "MIT",
   "scripts": {
+    "dev": "postcss tailwind.css -o public/assets/css/app.css --watch",
     "dev": "concurrently \"postcss tailwind.css -o public/assets/css/app.css --watch\" \"live-server ./public \"",
     "build": "postcss tailwind.css -o public/assets/css/app.css --env=production && postcss --use cssnano -r public/assets/css/app.css --no-map"
   }
