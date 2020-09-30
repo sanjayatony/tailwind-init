@@ -12,3 +12,7 @@ npm run dev
 // production, css file will be purge and minimize using css-nao
 npm run build
 ```
+
+## Todo
+
+- Error management
