@@ -1,6 +1,6 @@
 {
   "name": "tailwind-init",
-  "version": "0.5",
+  "version": "0.0.9",
   "description": "Install Tailwind CSS to a vanila HTML. Inlcuded: postcss-nested, live-server, css-nano and purge-css",
   "main": "index.js",
   "bin": {
@@ -19,7 +19,8 @@
     "tailwind-html"
   ],
   "author": "Tony S.",
-  "license": "ISC",
+  "repository": "https://github.com/sanjayatony/tailwind-init",
+  "license": "MIT",
   "dependencies": {
     "arg": "^4.1.3",
     "chalk": "^4.1.0",
