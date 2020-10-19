@@ -28,7 +28,11 @@ const tasks = new listr([
   {
     title: "Create directory structure",
     task: () => {
-      const tree = ["public/assets/css", "public/assets/img"];
+      const tree = [
+        "public/assets/css",
+        "public/assets/img",
+        "public/assets/font",
+      ];
 
       if (fs.existsSync(root_dir)) {
         throw new Error(`Project directory ${root_dir} already exists`);
