@@ -1,6 +1,6 @@
 {
   "name": "tailwind-init",
-  "version": "0.0.9",
+  "version": "0.1.4",
   "description": "Install Tailwind CSS to a vanila HTML. Inlcuded: postcss-nested, live-server, css-nano and purge-css",
   "main": "index.js",
   "bin": {
