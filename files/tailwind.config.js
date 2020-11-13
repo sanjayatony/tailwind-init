@@ -3,6 +3,7 @@ module.exports = {
     // removeDeprecatedGapUtilities: true,
     // purgeLayersByDefault: true,
   },
+  presets: [require("./preset-app")],
   purge: ["./public/**/*.html"],
   theme: {
     extend: {},
