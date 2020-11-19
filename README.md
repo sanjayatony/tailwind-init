@@ -41,4 +41,4 @@ yarn prod
 - Enable "Experimental -> applyComplexClasses" in config by default.
 - Add new directory 'font' under 'public'.
 
-## [Buy me a coffee](https://www.paypal.com/paypalme/sanjayatony)
+## [Buy me a coffee :)](https://www.paypal.com/paypalme/sanjayatony)
