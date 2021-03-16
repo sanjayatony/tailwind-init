@@ -1,16 +1,12 @@
 module.exports = {
-  future: {
-    // removeDeprecatedGapUtilities: true,
-    // purgeLayersByDefault: true,
-  },
   //presets: [require("./preset-app")],
   purge: ["./public/**/*.html"],
+  darkMode: false,
   theme: {
     extend: {},
   },
-  variants: {},
-  plugins: [],
-  experimental: {
-    applyComplexClasses: true,
+  variants: {
+    extend: {},
   },
+  plugins: [],
 };
