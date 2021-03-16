@@ -1,13 +1,12 @@
 {
-  "name": "",
+  "name": "app",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "watch": "postcss tailwind.css -o public/assets/css/app.css --watch",
     "dev": "concurrently \"postcss tailwind.css -o public/assets/css/app.css --watch\" \"live-server ./public \"",
-    "build": "postcss tailwind.css -o public/assets/css/app.css --env=production",
-    "prod": "postcss tailwind.css -o public/assets/css/app.css --env=production && postcss --use cssnano -r public/assets/css/app.css --no-map"
+    "prod": "postcss tailwind.css -o public/assets/css/app.css && postcss --use cssnano -r public/assets/css/app.css --no-map"
   },
   "keywords": [],
   "author": "",
