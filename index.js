@@ -16,6 +16,7 @@ const dependencies = [
   "postcss-cli",
   "postcss-nested",
   "tailwindcss",
+  "@tailwindcss/jit",
   "live-server",
   "concurrently",
 ];
