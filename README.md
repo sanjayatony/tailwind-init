@@ -27,6 +27,14 @@ yarn prod
 
 ## Changelog
 
+### 0.1.8
+- New compiler JIT
+- Remove 'build', because no need to purge
+### 0.1.7
+
+- Add app name in package.json
+- add layer in tailwind.css
+
 ### 0.1.6
 
 - Add preset template like in this video https://t.co/hrS84nJpQL?amp=1
